@@ -11,6 +11,7 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 *Collection of PowerShell or batch scripts that automate disabling services, registry keys and scheduled tasks*
 
 * [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.
+* [Optimize Offline](https://github.com/DrEmpiricism/Optimize-Offline) - Optimize-Offline is a Windows 10 offline image optimization framework. 
 * [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover) - Configurable CLI tool to easily and aggressively debloat and tweak Windows 10 by removing preinstalled UWP apps, services and more.
 * [Windows On Reins](https://github.com/gordonbay/Windows-On-Reins) - Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performance on Windows 10 and 11.
 * [PowerShell scripts for Windows 10](https://github.com/MichiMunich/Windows10-Privacy) - PowerShell script for Windows 10 privacy settings.

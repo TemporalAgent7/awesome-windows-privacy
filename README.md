@@ -31,6 +31,7 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 *UI tools that automate debloating Windows*
 
 * [Privatezilla](https://github.com/builtbybel/privatezilla) - Performs a privacy & security check of Windows 10.
+* [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) - Block spying and tracking on Windows.
 * [Debotnet](https://github.com/builtbybel/debotnet) - Debotnet is a tiny portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
 * [privacy.sexy](https://github.com/undergroundwires/privacy.sexy) - Open-source tool to enforce privacy & security best-practices on Windows and macOS, because privacy is sexy.
 * [WinSlap](https://github.com/svenmauch/WinSlap) - Swiftly configure a fresh Windows 10 installation with useful tweaks and antispy settings.

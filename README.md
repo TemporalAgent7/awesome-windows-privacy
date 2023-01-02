@@ -53,6 +53,7 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 *Non open source (not free) applications for debloating Windows*
 
 * [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) - Free antispy tool for Windows 10 and 11.
+* [O&O AppBuster](https://www.oo-software.com/en/ooappbuster) - Bust Apps you do not want (uninstall store applications and packages)
 * [WinReducer-EX](https://www.winreducer.net/) - Remove components from WIM/ISO.
 * [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html) - MSMG ToolKit creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components and enabling or disabling features to Microsoft Windows 7, 8, 10, and 11.
 * [NTLite](https://www.ntlite.com/) - Integrate updates, drivers and remove Windows components from Windows ISO or live installation.

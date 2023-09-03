@@ -58,3 +58,4 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html) - MSMG ToolKit creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components and enabling or disabling features to Microsoft Windows 7, 8, 10, and 11.
 * [NTLite](https://www.ntlite.com/) - Integrate updates, drivers and remove Windows components from Windows ISO or live installation.
 * [Winaero Tweaker](https://winaerotweaker.com/) - All-in-one app for tuning Windows {7, 8, 10, 11}
+* [WPD](https://wpd.app/) - It is the most convenient way to configure various privacy settings in Windows.

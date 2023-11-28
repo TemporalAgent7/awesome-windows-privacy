@@ -26,6 +26,8 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [BetterPrivacy](https://github.com/hulr/BetterPrivacy) - PowerShell script to improve your privacy on Windows 10 computers.
 * [Windows 10 batch optimizer](https://github.com/SeregaSPb/Windows-10-batch-optimizer) - Autotuner Windows 10 for awesome perfomance setting, privacy and security.
 * [Windows-10-Hardening](https://github.com/aghorler/Windows-10-Hardening) - An admittedly frivolous (and infrequently updated) attempt to harden Windows 10.
+* [Private Secure Windows](https://github.com/troennes/private-secure-windows) - Privacy and security baseline for personal Windows 10 and Windows 11.
+* [tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts to build a trimmed-down Windows 11 image.
 
 ## OSS Applications
 *UI tools that automate debloating Windows*

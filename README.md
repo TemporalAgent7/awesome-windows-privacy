@@ -39,6 +39,8 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [WinSlap](https://github.com/svenmauch/WinSlap) - Swiftly configure a fresh Windows 10 installation with useful tweaks and antispy settings.
 * [Chemo](https://github.com/t-richards/chemo) - Remove pre-installed junk from Windows 10.
 * [Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy) - Streamlines permissions settings and advanced controls for Windows 10 (built for version 1809).
+* [Bloatynosy](https://github.com/builtbybel/BloatyNosy) - Universal Debloater and PC Manager
+* [winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates 
 
 ## Documentation
 *Documents, link and other informational materials*

@@ -1,122 +1,122 @@
-/* Define CSS variables for themes */
-:root {
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --header-background-color: #333;
-    --header-text-color: #fff;
-    --link-color: #0066cc;
-    --link-hover-color: #004999;
-    --footer-text-color: #666;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Windows Privacy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Awesome Windows Privacy</h1>
+        <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
+        <div class="theme-selector">
+            <label for="theme-dropdown">
+                <img src="sun-icon.svg" alt="Light Mode" class="theme-icon" />
+                <img src="moon-icon.svg" alt="Dark Mode" class="theme-icon" />
+                <img src="auto-icon.svg" alt="Automatic" class="theme-icon" />
+            </label>
+            <select id="theme-dropdown" onchange="changeTheme(this.value)">
+                <option value="light">Light Mode</option>
+                <option value="dark">Dark Mode</option>
+                <option value="auto">Automatic</option>
+            </select>
+        </div>
+    </header>
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --background-color: #1e1e1e;
-        --text-color: #f4f4f4;
-        --header-background-color: #000;
-        --header-text-color: #f4f4f4;
-        --link-color: #4ea3ff;
-        --link-hover-color: #1e90ff;
-        --footer-text-color: #999;
-    }
-}
+    <main>
+        <section id="powershell-and-batch-scripts">
+            <h2>Powershell and Batch Scripts</h2>
+            <ul>
+                <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - Tron is a collection of scripts designed to automate the cleanup and disinfection of Windows computers.</li>
+                <li><a href="https://www.getblackbird.net/">Blackbird</a> - A lightweight tool that aims to remove Windows spyware and block tracking services without requiring a graphical interface.</li>
+                <li><a href="https://github.com/farag2/Sophia-Script-for-Windows">Sophia Script for Windows</a> - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.</li>
+                <li><a href="https://github.com/DrEmpiricism/Optimize-Offline">Optimize Offline</a> - Optimize-Offline is a Windows 10 offline image optimization framework.</li>
+                <li><a href="https://github.com/Fs00/Win10BloatRemover">Windows 10 Bloat Remover and Tweaker</a> - Configurable CLI tool to easily and aggressively debloat and tweak Windows 10 by removing preinstalled UWP apps, services, and more.</li>
+                <li><a href="https://github.com/gordonbay/Windows-On-Reins">Windows On Reins</a> - Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting, and improve performance on Windows 10 and 11.</li>
+                <li><a href="https://github.com/MichiMunich/Windows10-Privacy">PowerShell scripts for Windows 10</a> - PowerShell script for Windows 10 privacy settings.</li>
+                <li><a href="https://github.com/L33Tech/Windows10Tools">Windows10Tools</a> - Tools for Windows 10.</li>
+                <li><a href="https://github.com/simeononsecurity/Windows-Optimize-Debloat">Windows-Optimize-Debloat</a> - For those who seek to minimize their Windows 10 installs.</li>
+                <li><a href="https://github.com/milgradesec/windows-settings">windows-settings</a> - Windows 10 hardening scripts and configs.</li>
+                <li><a href="https://github.com/RedAndBlueEraser/windows-10-enhance-2">Windows 10 Privacy and Control Enhance</a> - A PowerShell script to automatically configure for the highest privacy and control settings in Windows 10.</li>
+                <li><a href="https://github.com/iDigitalFlame/Windows10Fixup">Windows 10 Privacy Fixup</a> - Fixes and neuters the Windows 10 bloat and privacy violations so it can be finally usable.</li>
+                <li><a href="https://github.com/Daksh777/windows10-debloat">windows10-debloat</a> - Collection of various scripts and apps to debloat Windows 10 for better privacy, performance, and optimization.</li>
+                <li><a href="https://github.com/hulr/BetterPrivacy">BetterPrivacy</a> - PowerShell script to improve your privacy on Windows 10 computers.</li>
+                <li><a href="https://github.com/SeregaSPb/Windows-10-batch-optimizer">Windows 10 batch optimizer</a> - Autotuner Windows 10 for awesome performance settings, privacy, and security.</li>
+                <li><a href="https://github.com/troennes/private-secure-windows">Private Secure Windows</a> - Privacy and security baseline for personal Windows 10 and Windows 11.</li>
+                <li><a href="https://pxc-coding.com/donotspy11/">DoNotSpy11</a> - An application to easily configure privacy settings in Windows 10 and 11, providing control over telemetry and other invasive settings.</li>
+                <li><a href="https://github.com/ntdevlabs/tiny11builder">tiny11builder</a> - Scripts to build a trimmed-down Windows 11 image.</li>
+            </ul>
+        </section>
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    line-height: 1.6;
-    margin: 0;
-    padding: 20px;
-}
+        <section id="oss-applications">
+            <h2>OSS Applications</h2>
+            <ul>
+                <li><a href="https://github.com/builtbybel/privatezilla">Privatezilla</a> - Performs a privacy & security check of Windows 10.</li>
+                <li><a href="https://github.com/crazy-max/WindowsSpyBlocker">WindowsSpyBlocker</a> - Block spying and tracking on Windows.</li>
+                <li><a href="https://github.com/undergroundwires/privacy.sexy">privacy.sexy</a> - Open-source tool to enforce privacy & security best-practices on Windows and macOS.</li>
+                <li><a href="https://github.com/svenmauch/WinSlap">WinSlap</a> - Swiftly configure a fresh Windows 10 installation with useful tweaks and antispy settings.</li>
+                <li><a href="https://github.com/t-richards/chemo">Chemo</a> - Remove pre-installed junk from Windows 10.</li>
+                <li><a href="https://github.com/ConditionalException/Windows10Privacy">Windows10Privacy</a> - Streamlines permissions settings and advanced controls for Windows 10 (built for version 1809).</li>
+                <li><a href="https://github.com/ChrisTitusTech/winutil">winutil</a> - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates.</li>
+            </ul>
+        </section>
 
-header {
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    padding: 10px 0;
-    text-align: center;
-    margin-bottom: 20px;
-}
+        <section id="documentation">
+            <h2>Documentation</h2>
+            <ul>
+                <li><a href="https://github.com/beerisgood/Windows10_Anti-Telemetry">Windows 10_Anti Telemetry</a> - My anti-telemetry guide for Windows 10 x64.</li>
+            </ul>
+        </section>
 
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
+        <section id="misc">
+            <h2>Misc</h2>
+            <ul>
+                <li><a href="https://github.com/schrebra/windows10.dns.list">windows10.dns.list</a> - Block everything Windows 10.</li>
+            </ul>
+        </section>
 
-h2 {
-    color: var(--text-color);
-    border-bottom: 2px solid #ccc;
-    padding-bottom: 5px;
-}
+        <section id="non-oss-applications">
+            <h2>Non-OSS Applications</h2>
+            <ul>
+                <li><a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10++</a> - Free antispy tool for Windows 10 and 11.</li>
+                <li><a href="https://www.oo-software.com/en/ooappbuster">O&O AppBuster</a> - Bust Apps you do not want (uninstall store applications and packages).</li>
+                <li><a href="https://www.winreducer.net/">WinReducer-EX</a> - Remove components from WIM/ISO.</li>
+                <li><a href="https://m.majorgeeks.com/files/details/msmg_toolkit.html">MSMG ToolKit</a> - Creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components.</li>
+                <li><a href="https://www.ntlite.com/">NTLite</a> - Integrate updates, drivers, and remove Windows components from Windows ISO or live installation.</li>
+                <li><a href="https://winaerotweaker.com/">Winaero Tweaker</a> - All-in-one app for tuning Windows {7, 8, 10, 11}.</li>
+                <li><a href="https://wpd.app/">WPD</a> - Convenient way to configure various privacy settings in Windows.</li>
+            </ul>
+        </section>
+    </main>
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
+    <footer>
+        <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
+    </footer>
 
-ul li {
-    background: #fff;
-    margin: 5px 0;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: var(--text-color);
-    background-color: var(--background-color);
-}
+    <script>
+        function changeTheme(theme) {
+            const body = document.body;
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : (body.classList.contains('dark-theme') ? 'dark' : 'auto');
+            body.classList.remove(currentTheme + '-theme');
+            if (theme !== 'auto') {
+                body.classList.add(theme + '-theme');
+            } else {
+                body.classList.remove('light-theme', 'dark-theme');
+                const hour = new Date().getHours();
+                if (hour >= 7 && hour < 19) {
+                    body.classList.add('light-theme');
+                } else {
+                    body.classList.add('dark-theme');
+                }
+            }
+        }
 
-a {
-    color: var(--link-color);
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-    color: var(--link-hover-color);
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.9em;
-    color: var(--footer-text-color);
-}
-
-/* Light theme */
-.light-theme {
-    --background-color: #f4f4f4;
-    --text-color: #333;
-    --header-background-color: #333;
-    --header-text-color: #fff;
-    --link-color: #0066cc;
-    --link-hover-color: #004999;
-    --footer-text-color: #666;
-}
-
-/* Dark theme */
-.dark-theme {
-    --background-color: #1e1e1e;
-    --text-color: #f4f4f4;
-    --header-background-color: #000;
-    --header-text-color: #f4f4f4;
-    --link-color: #4ea3ff;
-    --link-hover-color: #1e90ff;
-    --footer-text-color: #999;
-}
-
-/* Theme toggle button */
-.theme-toggle {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    font-size: 0.9em;
-}
-
-.theme-toggle:hover {
-    background-color: var(--header-background-color);
-}
+        // Set initial theme based on the time
+        document.addEventListener('DOMContentLoaded', () => {
+            const theme = document.getElementById('theme-dropdown').value;
+            changeTheme(theme);
+        });
+    </script>
+</body>
+</html>

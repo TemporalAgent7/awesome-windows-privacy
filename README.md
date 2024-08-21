@@ -1,4 +1,4 @@
-# Awesome Windows privacy
+# Awesome Windows Privacy
 A list of awesome tools, documentation and scripts for better privacy on Microsoft Windows
 
 - [Powershell and batch scripts](#powershell-and-batch-scripts)

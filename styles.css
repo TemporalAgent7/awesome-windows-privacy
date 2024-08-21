@@ -1,6 +1,6 @@
 /* Base Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
@@ -78,4 +78,10 @@ a:hover {
 .dark footer {
     background-color: #1f1f1f;
     color: #e0e0e0;
+}
+
+/* Dropdown Styles */
+.theme-selector select {
+    padding: 5px;
+    font-size: 16px;
 }

@@ -44,10 +44,6 @@ A curated list of awesome tools, documentation, and scripts for better privacy o
 - [Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy) - Streamlines permissions settings and advanced controls for Windows 10.
 - [winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility for installing programs, tweaks, fixes, and updates.
 
-## Documentation 📚
-*Documents, links, and other informational materials.*
-
-- [Windows 10_Anti Telemetry](https://github.com/beerisgood/Windows10_Anti-Telemetry) - Anti-telemetry guide for Windows 10 x64.
 
 ## Misc 🛠️
 *Miscellaneous repositories related to this topic.*

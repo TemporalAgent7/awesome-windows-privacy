@@ -11,7 +11,8 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 *Collection of PowerShell or batch scripts that automate disabling services, registry keys and scheduled tasks*
 
 * [TronScript](https://bmrf.org/repos/tron/) - Tron is a collection of scripts designed to automate the cleanup and disinfection of Windows computers. It's best to run it right after your first boot.
-  (Make sure to reboot the computer before running Tron. This is essential to allow any pending updates to complete. If you skip this step and the computer reboots during Tron with updates still pending, it could brick your system. To reiterate: rebooting before running Tron is absolutely crucial.)
+
+(Make sure to reboot the computer before running Tron. This is essential to allow any pending updates to complete. If you skip this step and the computer reboots during Tron with updates still pending, it will brick your system. To reiterate: rebooting before running Tron is absolutely crucial.)
 * [Blackbird](https://www.getblackbird.net/) - A lightweight tool that aims to remove Windows spyware and block tracking services without requiring a graphical interface.
 * [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.
 * [Optimize Offline](https://github.com/DrEmpiricism/Optimize-Offline) - Optimize-Offline is a Windows 10 offline image optimization framework. 

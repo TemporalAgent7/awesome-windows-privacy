@@ -10,6 +10,9 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 ## Powershell and batch scripts
 *Collection of PowerShell or batch scripts that automate disabling services, registry keys and scheduled tasks*
 
+* [TronScript](https://bmrf.org/repos/tron/) - Tron is a collection of scripts designed to automate the cleanup and disinfection of Windows computers. It's best to run it right after your first boot.
+  (Make sure to reboot the computer before running Tron. This is essential to allow any pending updates to complete. If you skip this step and the computer reboots during Tron with updates still pending, it could brick your system. To reiterate: rebooting before running Tron is absolutely crucial.)
+* [Blackbird](https://www.getblackbird.net/) - A lightweight tool that aims to remove Windows spyware and block tracking services without requiring a graphical interface.
 * [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.
 * [Optimize Offline](https://github.com/DrEmpiricism/Optimize-Offline) - Optimize-Offline is a Windows 10 offline image optimization framework. 
 * [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover) - Configurable CLI tool to easily and aggressively debloat and tweak Windows 10 by removing preinstalled UWP apps, services and more.
@@ -24,6 +27,8 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [BetterPrivacy](https://github.com/hulr/BetterPrivacy) - PowerShell script to improve your privacy on Windows 10 computers.
 * [Windows 10 batch optimizer](https://github.com/SeregaSPb/Windows-10-batch-optimizer) - Autotuner Windows 10 for awesome perfomance setting, privacy and security.
 * [Private Secure Windows](https://github.com/troennes/private-secure-windows) - Privacy and security baseline for personal Windows 10 and Windows 11.
+* [DoNotSpy11](https://pxc-coding.com/donotspy11/) - An application to easily configure privacy settings in Windows 10 and 11, providing control over telemetry and other invasive settings.
+* [Win11Debloat](A user-friendly PowerShell script that removes Windows bloatware, disables telemetry, and cleans up the interface. It allows for customization and easy reversion of changes.)
 * [tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts to build a trimmed-down Windows 11 image.
 
 ## OSS Applications

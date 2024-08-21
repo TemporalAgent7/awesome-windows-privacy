@@ -3,11 +3,6 @@
 
 A curated list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows.
 
-[![GitHub stars](https://img.shields.io/github/stars/ArkoTest/awesome-windows-privacy)](https://github.com/ArkoTest/awesome-windows-privacy/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/ArkoTest/awesome-windows-privacy)](https://github.com/ArkoTest/awesome-windows-privacy/network)
-[![GitHub issues](https://img.shields.io/github/issues/ArkoTest/awesome-windows-privacy)](https://github.com/ArkoTest/awesome-windows-privacy/issues)
-[![License](https://img.shields.io/github/license/ArkoTest/awesome-windows-privacy)](https://github.com/ArkoTest/awesome-windows-privacy/blob/main/LICENSE)
-
 ## Table of Contents
 - [Powershell and Batch Scripts](#powershell-and-batch-scripts)
 - [OSS Applications](#oss-applications)

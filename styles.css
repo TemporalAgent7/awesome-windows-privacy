@@ -1,0 +1,122 @@
+/* Define CSS variables for themes */
+:root {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-background-color: #333;
+    --header-text-color: #fff;
+    --link-color: #0066cc;
+    --link-hover-color: #004999;
+    --footer-text-color: #666;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1e1e1e;
+        --text-color: #f4f4f4;
+        --header-background-color: #000;
+        --header-text-color: #f4f4f4;
+        --link-color: #4ea3ff;
+        --link-hover-color: #1e90ff;
+        --footer-text-color: #999;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: var(--text-color);
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background: #fff;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--link-hover-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: var(--footer-text-color);
+}
+
+/* Light theme */
+.light-theme {
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-background-color: #333;
+    --header-text-color: #fff;
+    --link-color: #0066cc;
+    --link-hover-color: #004999;
+    --footer-text-color: #666;
+}
+
+/* Dark theme */
+.dark-theme {
+    --background-color: #1e1e1e;
+    --text-color: #f4f4f4;
+    --header-background-color: #000;
+    --header-text-color: #f4f4f4;
+    --link-color: #4ea3ff;
+    --link-hover-color: #1e90ff;
+    --footer-text-color: #999;
+}
+
+/* Theme toggle button */
+.theme-toggle {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.theme-toggle:hover {
+    background-color: var(--header-background-color);
+}

@@ -6,7 +6,7 @@
     <title>Awesome Windows Privacy</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body class="light">
     <header>
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
@@ -78,8 +78,8 @@
                 <li><a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10++</a> - Free antispy tool for Windows 10 and 11.</li>
                 <li><a href="https://www.oo-software.com/en/ooappbuster">O&O AppBuster</a> - Uninstall store applications and packages.</li>
                 <li><a href="https://www.winreducer.net/">WinReducer-EX</a> - Remove components from WIM/ISO.</li>
-                <li><a href="https://m.majorgeeks.com/files/details/msmg_toolkit.html">MSMG ToolKit</a> - Creates a slimmed-down or bloat-free Windows.</li>
-                <li><a href="https://www.ntlite.com/">NTLite</a> - Integrate updates, drivers, and remove Windows components from ISO or live installation.</li>
+                <li><a href="https://m.majorgeeks.com/files/details/msmg_toolkit.html">MSMG ToolKit</a> - Slim down or bloat-free Windows by customizing or removing features.</li>
+                <li><a href="https://www.ntlite.com/">NTLite</a> - Integrate updates, drivers, and remove Windows components.</li>
                 <li><a href="https://winaerotweaker.com/">Winaero Tweaker</a> - All-in-one app for tuning Windows.</li>
                 <li><a href="https://wpd.app/">WPD</a> - Convenient way to configure various privacy settings in Windows.</li>
             </ul>
@@ -87,31 +87,20 @@
     </main>
 
     <footer>
-        <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
+        <p>&copy; 2024 Awesome Windows Privacy</p>
     </footer>
 
     <script>
         function changeTheme(theme) {
-            if (theme === 'auto') {
-                // Auto-detect system theme
-                const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-                document.body.className = prefersDarkScheme ? 'dark' : 'light';
-            } else {
-                document.body.className = theme;
-            }
+            document.body.className = theme;
+            localStorage.setItem('theme', theme);
         }
 
-        // Apply the saved theme on page load
+        // Set the theme on page load
         document.addEventListener('DOMContentLoaded', () => {
-            const savedTheme = localStorage.getItem('theme') || 'auto';
-            changeTheme(savedTheme);
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.body.className = savedTheme;
             document.getElementById('theme-dropdown').value = savedTheme;
-        });
-
-        // Save the selected theme
-        document.getElementById('theme-dropdown').addEventListener('change', (e) => {
-            localStorage.setItem('theme', e.target.value);
-            changeTheme(e.target.value);
         });
     </script>
 </body>

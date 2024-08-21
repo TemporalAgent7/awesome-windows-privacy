@@ -1,0 +1,87 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 20px;
+}
+
+.theme-selector {
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Light Theme */
+.light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.light header {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.light footer {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Dark Theme */
+.dark {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark header {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+.dark footer {
+    background-color: #1f1f1f;
+    color: #e0e0e0;
+}
+
+/* Dropdown Styles */
+.theme-selector select {
+    padding: 5px;
+    font-size: 16px;
+}

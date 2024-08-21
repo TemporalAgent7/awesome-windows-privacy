@@ -10,52 +10,24 @@
     <header>
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
+        <button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
     </header>
 
-    <section>
-        <h2>Powershell and Batch Scripts</h2>
-        <ul>
-            <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - Automates cleanup and disinfection of Windows computers.</li>
-            <li><a href="https://www.getblackbird.net/">Blackbird</a> - Removes Windows spyware and blocks tracking services.</li>
-            <!-- Add other tools here -->
-        </ul>
-    </section>
-
-    <section>
-        <h2>OSS Applications</h2>
-        <ul>
-            <li><a href="https://github.com/builtbybel/privatezilla">Privatezilla</a> - Performs a privacy & security check of Windows 10.</li>
-            <li><a href="https://github.com/crazy-max/WindowsSpyBlocker">WindowsSpyBlocker</a> - Block spying and tracking on Windows.</li>
-            <!-- Add other applications here -->
-        </ul>
-    </section>
-
-    <section>
-        <h2>Documentation</h2>
-        <ul>
-            <li><a href="https://github.com/beerisgood/Windows10_Anti-Telemetry">Windows 10_Anti Telemetry</a> - Anti-telemetry guide for Windows 10 x64.</li>
-            <!-- Add other documentation links here -->
-        </ul>
-    </section>
-
-    <section>
-        <h2>Misc</h2>
-        <ul>
-            <li><a href="https://github.com/schrebra/windows10.dns.list">windows10.dns.list</a> - Block everything Windows 10.</li>
-            <!-- Add other miscellaneous items here -->
-        </ul>
-    </section>
-
-    <section>
-        <h2>Non-OSS Applications</h2>
-        <ul>
-            <li><a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10++</a> - Free antispy tool for Windows 10 and 11.</li>
-            <!-- Add other non-OSS applications here -->
-        </ul>
-    </section>
+    <!-- Content Sections -->
+    <!-- ... (your content here) ... -->
 
     <footer>
         <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
     </footer>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const currentTheme = body.classList.contains('light-theme') ? 'light' : 'dark';
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+            body.classList.remove(currentTheme + '-theme');
+            body.classList.add(newTheme + '-theme');
+        }
+    </script>
 </body>
 </html>

@@ -9,6 +9,7 @@ A curated list of awesome tools, documentation, and scripts for better privacy o
 - [Documentation](#documentation)
 - [Misc](#misc)
 - [Non-OSS Applications](#non-oss-applications)
+- [Contributing](#contributing)
 
 ## Powershell and Batch Scripts 🚀
 *Collection of PowerShell or batch scripts that automate disabling services, registry keys, and scheduled tasks.*
@@ -44,6 +45,10 @@ A curated list of awesome tools, documentation, and scripts for better privacy o
 - [Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy) - Streamlines permissions settings and advanced controls for Windows 10.
 - [winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility for installing programs, tweaks, fixes, and updates.
 
+## Documentation 📚
+*Documents, links, and other informational materials.*
+
+- [Windows 10_Anti Telemetry](https://github.com/beerisgood/Windows10_Anti-Telemetry) - Anti-telemetry guide for Windows 10 x64.
 
 ## Misc 🛠️
 *Miscellaneous repositories related to this topic.*
@@ -60,3 +65,10 @@ A curated list of awesome tools, documentation, and scripts for better privacy o
 - [NTLite](https://www.ntlite.com/) - Integrates updates, drivers, and removes Windows components from ISO or live installation.
 - [Winaero Tweaker](https://winaerotweaker.com/) - All-in-one app for tuning Windows 7, 8, 10, and 11.
 - [WPD](https://wpd.app/) - Configures various privacy settings in Windows.
+
+## Contributing 🙌
+Your contributions are welcome! This list may contain outdated links or other issues. If you come across any dead links or errors, feel free to create a new issue and label it `[Issue]` with a brief description.
+
+If you have new tools, websites, or other suggestions to improve this list, please create a new issue and label it `[Enhancement]` with details of your suggestion.
+
+For those who want to contribute code or collaborate on improving this repository, you're encouraged to fork the repo, make your changes, and submit a pull request. Please ensure your code follows the existing style and practices of the repository. If you're unsure where to start or want to discuss larger changes, feel free to DM me on @ArkoTest (Twitter/X).

@@ -67,8 +67,8 @@ A curated list of awesome tools, documentation, and scripts for better privacy o
 - [WPD](https://wpd.app/) - Configures various privacy settings in Windows.
 
 ## Contributing 🙌
-Your contributions are welcome! This list may contain outdated links or other issues. If you come across any dead links or errors, feel free to create a new issue and label it `[Issue]` with a brief description.
+Your contributions are welcome! This list may contain outdated links or other issues. If you come across any dead links or errors, feel free to create a new issue and label it `Issue` with a brief description.
 
-If you have new tools, websites, or other suggestions to improve this list, please create a new issue and label it `[Enhancement]` with details of your suggestion.
+If you have new tools, websites, or other suggestions to improve this list, please create a new issue and label it `Enhancement` with details of your suggestion.
 
 For those who want to contribute code or collaborate on improving this repository, you're encouraged to fork the repo, make your changes, and submit a pull request. Please ensure your code follows the existing style and practices of the repository. If you're unsure where to start or want to discuss larger changes, feel free to DM me on @ArkoTest (Twitter/X).

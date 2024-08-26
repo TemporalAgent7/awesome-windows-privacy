@@ -11,16 +11,7 @@
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
         <div class="theme-selector">
-            <label for="theme-dropdown">
-                <img src="sun-icon.svg" alt="Light Mode" class="theme-icon" />
-                <img src="moon-icon.svg" alt="Dark Mode" class="theme-icon" />
-                <img src="auto-icon.svg" alt="Automatic" class="theme-icon" />
-            </label>
-            <select id="theme-dropdown" onchange="changeTheme(this.value)">
-                <option value="light">Light Mode</option>
-                <option value="dark">Dark Mode</option>
-                <option value="auto">Automatic</option>
-            </select>
+            <button id="theme-toggle">Light</button>
         </div>
     </header>
 
@@ -28,12 +19,12 @@
         <section id="powershell-and-batch-scripts">
             <h2>Powershell and Batch Scripts</h2>
             <ul>
-                <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers.<br><strong>Important</strong>: Reboot before running Tron to avoid bricking your system.</li>
+                <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers. **Important**: Reboot before running Tron to avoid bricking your system.</li>
                 <li><a href="https://www.getblackbird.net/">Blackbird</a> - A lightweight tool that aims to remove Windows spyware and block tracking services without requiring a graphical interface.</li>
                 <li><a href="https://github.com/farag2/Sophia-Script-for-Windows">Sophia Script for Windows</a> - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.</li>
                 <li><a href="https://github.com/DrEmpiricism/Optimize-Offline">Optimize Offline</a> - Optimize-Offline is a Windows 10 offline image optimization framework.</li>
                 <li><a href="https://github.com/Fs00/Win10BloatRemover">Windows 10 Bloat Remover and Tweaker</a> - Configurable CLI tool to easily and aggressively debloat and tweak Windows 10 by removing preinstalled UWP apps, services, and more.</li>
-                <li><a href="https://github.com/gordonbay/Windows-On-Reins">Windows On Reins</a> - Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting, and improve performance on Windows 10 and 11.</li>
+                <li><a href="https://github.com/gordonbay/Windows-On-Reins">Windows On Reins</a> - Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting, and improve performance on Windows 10 and 11.</li>
                 <li><a href="https://github.com/MichiMunich/Windows10-Privacy">PowerShell scripts for Windows 10</a> - PowerShell script for Windows 10 privacy settings.</li>
                 <li><a href="https://github.com/L33Tech/Windows10Tools">Windows10Tools</a> - Tools for Windows 10.</li>
                 <li><a href="https://github.com/simeononsecurity/Windows-Optimize-Debloat">Windows-Optimize-Debloat</a> - For those who seek to minimize their Windows 10 installs.</li>
@@ -85,15 +76,34 @@
                 <li><a href="https://m.majorgeeks.com/files/details/msmg_toolkit.html">MSMG ToolKit</a> - Creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components.</li>
                 <li><a href="https://www.ntlite.com/">NTLite</a> - Integrate updates, drivers, and remove Windows components from Windows ISO or live installation.</li>
                 <li><a href="https://winaerotweaker.com/">Winaero Tweaker</a> - All-in-one app for tuning Windows {7, 8, 10, 11}.</li>
-                <li><a href="https://wpd.app/">WPD</a> - Convenient way to configure various privacy settings in Windows.</li>
+                <li><a href="https://wpd.app/">WPD</a> - Convenient way to configure Windows privacy settings.</li>
             </ul>
         </section>
     </main>
 
     <footer>
-        <p style="font-size: 10px; text-align: center;">Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
+        <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script>
+        function applyTheme(theme) {
+            document.body.className = theme + '-theme';
+            document.getElementById('theme-toggle').innerText = theme === 'light' ? 'Dark' : 'Light';
+        }
+
+        function setThemeBasedOnSystemPreference() {
+            const darkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
+            applyTheme(darkScheme ? 'dark' : 'light');
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            setThemeBasedOnSystemPreference();
+            document.getElementById('theme-toggle').addEventListener('click', () => {
+                const currentTheme = document.body.className.includes('dark') ? 'dark' : 'light';
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                applyTheme(newTheme);
+            });
+        });
+    </script>
 </body>
 </html>

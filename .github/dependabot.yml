@@ -20,7 +20,7 @@ updates:
     schedule:
       interval: "weekly" # Options: "daily", "weekly", "monthly"
 
-  - package-ecosystem: "rubygems" # For Ruby projects using Bundler
+  - package-ecosystem: "bundler" # For Ruby projects using Bundler
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly" # Options: "daily", "weekly", "monthly"
@@ -35,7 +35,7 @@ updates:
     schedule:
       interval: "weekly" # Options: "daily", "weekly", "monthly"
 
-  - package-ecosystem: "go" # For Go projects using Go modules
+  - package-ecosystem: "gomod" # For Go projects using Go modules
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly" # Options: "daily", "weekly", "monthly"

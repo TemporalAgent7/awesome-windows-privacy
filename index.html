@@ -10,9 +10,6 @@
     <header>
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
-        <div class="theme-selector">
-            <button id="theme-toggle" aria-label="Toggle Theme">Light</button>
-        </div>
     </header>
 
     <main>
@@ -84,18 +81,5 @@
     <footer>
         <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
     </footer>
-
-    <script>
-        function applyTheme(theme) {
-            document.body.className = theme + '-theme';
-            document.getElementById('theme-toggle').innerText = theme === 'light' ? 'Dark' : 'Light';
-            localStorage.setItem('theme', theme);
-        }
-
-        function setThemeBasedOnSystemPreference() {
-            const savedTheme = localStorage.getItem('theme');
-            const darkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            if (savedTheme) {
-                applyTheme(savedTheme);
-            } else {
-                apply
+</body>
+</html>

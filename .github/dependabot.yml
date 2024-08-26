@@ -1,0 +1,41 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://docs.github.com/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  - package-ecosystem: "npm" # For JavaScript/TypeScript projects using npm
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "pip" # For Python projects using pip
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "maven" # For Java projects using Maven
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "rubygems" # For Ruby projects using Bundler
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "composer" # For PHP projects using Composer
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "cargo" # For Rust projects using Cargo
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"
+
+  - package-ecosystem: "go" # For Go projects using Go modules
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "weekly" # Options: "daily", "weekly", "monthly"

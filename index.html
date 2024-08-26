@@ -1,3 +1,8 @@
+Here’s the complete `index.html` with all your content sections included:
+
+### `index.html`
+
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -98,18 +103,4 @@
             if (savedTheme) {
                 applyTheme(savedTheme);
             } else {
-                applyTheme(darkScheme ? 'dark' : 'light');
-            }
-        }
-
-        document.addEventListener('DOMContentLoaded', () => {
-            setThemeBasedOnSystemPreference();
-            document.getElementById('theme-toggle').addEventListener('click', () => {
-                const currentTheme = document.body.className.includes('dark') ? 'dark' : 'light';
-                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-                applyTheme(newTheme);
-            });
-        });
-    </script>
-</body>
-</html>
+                apply

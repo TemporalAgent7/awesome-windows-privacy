@@ -11,7 +11,7 @@
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
         <div class="theme-selector">
-            <button id="theme-toggle">Light</button>
+            <button id="theme-toggle" aria-label="Toggle Theme">Light</button>
         </div>
     </header>
 
@@ -19,7 +19,7 @@
         <section id="powershell-and-batch-scripts">
             <h2>Powershell and Batch Scripts</h2>
             <ul>
-                <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers. **Important**: Reboot before running Tron to avoid bricking your system.</li>
+                <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers. <strong>Important</strong>: Reboot before running Tron to avoid bricking your system.</li>
                 <li><a href="https://www.getblackbird.net/">Blackbird</a> - A lightweight tool that aims to remove Windows spyware and block tracking services without requiring a graphical interface.</li>
                 <li><a href="https://github.com/farag2/Sophia-Script-for-Windows">Sophia Script for Windows</a> - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.</li>
                 <li><a href="https://github.com/DrEmpiricism/Optimize-Offline">Optimize Offline</a> - Optimize-Offline is a Windows 10 offline image optimization framework.</li>
@@ -89,11 +89,17 @@
         function applyTheme(theme) {
             document.body.className = theme + '-theme';
             document.getElementById('theme-toggle').innerText = theme === 'light' ? 'Dark' : 'Light';
+            localStorage.setItem('theme', theme);
         }
 
         function setThemeBasedOnSystemPreference() {
+            const savedTheme = localStorage.getItem('theme');
             const darkScheme = window.matchMedia("(prefers-color-scheme: dark)").matches;
-            applyTheme(darkScheme ? 'dark' : 'light');
+            if (savedTheme) {
+                applyTheme(savedTheme);
+            } else {
+                applyTheme(darkScheme ? 'dark' : 'light');
+            }
         }
 
         document.addEventListener('DOMContentLoaded', () => {

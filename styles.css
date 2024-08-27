@@ -4,6 +4,7 @@ body {
     color: var(--text-color);
     margin: 0;
     padding: 0;
+    font-size: 16px; /* Default font size */
 }
 
 header {
@@ -23,31 +24,24 @@ header p {
     color: var(--header-text-color);
 }
 
-.theme-selector {
+.accessibility-controls {
     position: absolute;
     top: 20px;
     right: 20px;
 }
 
-.theme-selector label {
-    display: flex;
-    align-items: center;
+.accessibility-controls button {
+    margin: 0 5px;
+    padding: 10px;
+    background-color: var(--button-bg-color);
+    color: var(--button-text-color);
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
 }
 
-.theme-selector select {
-    margin-left: 10px;
-    background-color: var(--select-bg-color);
-    color: var(--select-text-color);
-    border: 1px solid var(--select-border-color);
-    border-radius: 4px;
-    padding: 5px;
-    font-size: 1em;
-}
-
-.theme-selector img.theme-icon {
-    width: 20px;
-    height: 20px;
+.accessibility-controls button:hover {
+    background-color: var(--button-hover-bg-color);
 }
 
 main {
@@ -104,6 +98,9 @@ footer a {
     --select-bg-color: #ffffff;
     --select-text-color: #000000;
     --select-border-color: #cccccc;
+    --button-bg-color: #dddddd;
+    --button-text-color: #000000;
+    --button-hover-bg-color: #cccccc;
 }
 
 /* Dark Theme Variables */
@@ -119,4 +116,23 @@ footer a {
     --select-bg-color: #2c2c2c;
     --select-text-color: #e0e0e0;
     --select-border-color: #444444;
+    --button-bg-color: #333333;
+    --button-text-color: #ffffff;
+    --button-hover-bg-color: #555555;
+}
+
+/* High Contrast Mode */
+.high-contrast-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.high-contrast-mode header, 
+.high-contrast-mode footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.high-contrast-mode a {
+    color: #00ffff;
 }

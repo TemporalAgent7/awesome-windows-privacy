@@ -5,12 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awesome Windows Privacy</title>
     <link rel="stylesheet" href="styles.css">
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const themeToggle = document.getElementById('theme-toggle');
+            const currentTheme = localStorage.getItem('theme') || 'light';
+            document.body.classList.toggle('dark-mode', currentTheme === 'dark');
+
+            themeToggle.addEventListener('click', () => {
+                const isDarkMode = document.body.classList.toggle('dark-mode');
+                localStorage.setItem('theme', isDarkMode ? 'dark' : 'light');
+            });
+        });
+    </script>
 </head>
 <body>
     <header>
         <h1>Awesome Windows Privacy</h1>
         <p>A list of awesome tools, documentation, and scripts for better privacy on Microsoft Windows</p>
-        <button id="toggle-theme">Toggle Theme</button>
+        <button id="theme-toggle">Toggle Theme</button>
     </header>
 
     <main>
@@ -82,7 +94,5 @@
     <footer>
         <p>Created by <a href="https://github.com/ArkoTest">ArkoTest</a></p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>

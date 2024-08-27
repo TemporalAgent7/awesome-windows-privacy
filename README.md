@@ -43,10 +43,37 @@ This repository is a modified version of the main [awesome-windows-privacy repo]
 ### Documentation
 
 - [Windows 10_Anti Telemetry](https://github.com/beerisgood/Windows10_Anti-Telemetry) - A guide for mitigating telemetry in Windows 10 x64.
+- [The Privacy Project](https://www.privacyproject.org/) - Offers guides and resources for maintaining privacy online.
+- [PrivacyTools.io](https://www.privacytools.io/) - Provides recommendations for privacy-focused tools and services.
+- [The Privacy Guide](https://theprivacyguide.org/) - A resource for learning about privacy and the tools to help protect it.
+- [Electronic Frontier Foundation (EFF)](https://www.eff.org/) - An organization defending civil liberties in the digital world.
+- [SecureDrop](https://securedrop.org/) - A whistleblower submission system that media organizations can use to securely accept documents from anonymous sources.
+- [No More Ransom](https://www.nomoreransom.org/) - A collaboration between law enforcement and IT security companies to combat ransomware.
 
 ### Misc
 
 - [windows10.dns.list](https://github.com/schrebra/windows10.dns.list) - DNS list for blocking various elements in Windows 10.
+- [Privacy Badger](https://privacybadger.org/) - A browser extension that automatically learns to block invisible trackers.
+- [Tor Browser](https://www.torproject.org/) - A browser designed to protect your anonymity online by routing your traffic through the Tor network.
+- [Sandboxie](https://sandboxie-plus.com/) - A tool that isolates programs to prevent them from making permanent changes to your system.
+- [Justdelete.me](https://justdelete.me/) - A directory of direct links to delete your accounts from various online services.
+- [Have I Been Pwned](https://haveibeenpwned.com/) - A website that lets you check if your email address has been involved in a data breach.
+- [Cleanshot](https://www.cleanshot.com/) - Provides screenshots and privacy tools with features to blur sensitive information.
+- [IObit Uninstaller](https://www.iobit.com/en/iobit-uninstaller.php) - A tool for removing unwanted software and cleaning up residual files.
+- [Winaero Tweaker](https://winaero.com/winaero-tweaker/) - An application for customizing various Windows settings and features.
+- [Systweak Anti-Malware](https://www.systweak.com/antimalware/) - A tool for real-time protection against malware and spyware.
+- [Spybot Search & Destroy](https://www.safer-networking.org/) - A tool for detecting and removing spyware and adware.
+- [Kaspersky Security Scan](https://www.kaspersky.com/security-scan) - A tool for detecting security issues and malware on your system.
+- [Rizone's Portable CleanUp](https://www.rizone3.com/) - A portable tool for cleaning up temporary files and system junk.
+- [F-Secure Online Scanner](https://www.f-secure.com/en/home/free-tools/online-scanner) - A free online service to check your system for viruses and malware.
+- [Bitdefender Free Edition](https://www.bitdefender.com/solutions/free.html) - A free version of Bitdefender’s antivirus software for protecting against malware and viruses.
+- [Malwarebytes AdwCleaner](https://www.malwarebytes.com/adwcleaner/) - A tool for removing adware, unwanted toolbars, and browser hijackers.
+- [BleachBit](https://www.bleachbit.org/) - A privacy-focused disk cleanup tool that deletes unnecessary files and clears system and application caches.
+- [Veracrypt](https://www.veracrypt.fr/en/Home.html) - An open-source disk encryption tool for securing data.
+- [Cryptomator](https://cryptomator.org/) - An open-source encryption tool for securing files in the cloud.
+- [Signal](https://signal.org/) - A secure messaging app that offers end-to-end encryption.
+- [ProtonMail](https://protonmail.com/) - A secure email service that offers end-to-end encryption.
+- [VeraCrypt](https://www.veracrypt.fr/en/Home.html) - An open-source disk encryption tool to secure your files.
 
 ### Non-OSS Applications
 
@@ -57,6 +84,8 @@ This repository is a modified version of the main [awesome-windows-privacy repo]
 - [NTLite](https://www.ntlite.com/) - Integrates updates, drivers, and removes components from Windows ISO or live installations.
 - [Winaero Tweaker](https://winaerotweaker.com/) - An all-in-one application for tuning various Windows versions.
 - [WPD](https://wpd.app/) - A tool for configuring various privacy settings in Windows.
+- [Syshardener](https://www.syshardener.com/) - A tool designed to improve Windows security by hardening system settings.
+- [W10Privacy](https://www.w10privacy.de/english-home/) - A privacy tool designed to provide more control over Windows 10 privacy settings.
 
 ## Contributing 🙌
 

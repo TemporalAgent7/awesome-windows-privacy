@@ -4,7 +4,7 @@ A curated list of essential tools, documentation, and scripts to enhance privacy
 
 ## Disclaimer
 
-This repository is a modified version of the main [awesome-windows-privacy repo](https://github.com/TemporalAgent7/awesome-windows-privacy) created by TemporalAgent7. I have reviewed and updated each link to ensure its accuracy and relevance. Additionally, I have included additional tools to further improve privacy. I hope you find this resource useful.
+This repository is a modified version of the main [awesome-windows-privacy repo](https://github.com/TemporalAgent7/awesome-windows-privacy) created by TemporalAgent7. I have reviewed and updated each link to ensure its accuracy and relevance. Additionally, I have included additional tools to further improve privacy. I hope you'll find this resource useful.
 
 ## Sections
 

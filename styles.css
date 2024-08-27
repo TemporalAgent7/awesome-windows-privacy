@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--header-bg-color);
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: var(--header-text-color);
+}
+
+header p {
+    font-size: 1.2em;
+    color: var(--header-text-color);
+}
+
+.theme-selector {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.theme-selector label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.theme-selector select {
+    margin-left: 10px;
+    background-color: var(--select-bg-color);
+    color: var(--select-text-color);
+    border: 1px solid var(--select-border-color);
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1em;
+}
+
+.theme-selector img.theme-icon {
+    width: 20px;
+    height: 20px;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h2 {
+    font-size: 1.5em;
+    color: var(--section-header-color);
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+main li {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: var(--footer-bg-color);
+    color: var(--footer-text-color);
+    font-size: 0.8em;
+}
+
+footer a {
+    color: var(--link-color);
+}
+
+/* Light Theme Variables */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --header-bg-color: #f0f0f0;
+    --header-text-color: #333333;
+    --section-header-color: #444444;
+    --link-color: #1a0dab;
+    --footer-bg-color: #f0f0f0;
+    --footer-text-color: #666666;
+    --select-bg-color: #ffffff;
+    --select-text-color: #000000;
+    --select-border-color: #cccccc;
+}
+
+/* Dark Theme Variables */
+:root.dark-mode {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --header-bg-color: #1e1e1e;
+    --header-text-color: #ffffff;
+    --section-header-color: #e0e0e0;
+    --link-color: #1a73e8;
+    --footer-bg-color: #1e1e1e;
+    --footer-text-color: #999999;
+    --select-bg-color: #2c2c2c;
+    --select-text-color: #e0e0e0;
+    --select-border-color: #444444;
+}

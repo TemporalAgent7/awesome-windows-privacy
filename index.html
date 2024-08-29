@@ -8,43 +8,63 @@
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            margin: 20px;
         }
         h1, h2, h3 {
             color: #333;
         }
         a {
-            color: #1e90ff;
+            color: blue;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        .tooltip {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #333;
+            cursor: pointer;
         }
-        ul {
-            padding-left: 20px;
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
         }
-        li {
-            margin-bottom: 10px;
-        }
-        footer {
+        .tooltip-text {
+            visibility: hidden;
+            width: 140px;
+            background-color: #333;
+            color: #fff;
             text-align: center;
-            margin-top: 20px;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; 
+            left: 50%; 
+            margin-left: -70px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
         }
     </style>
 </head>
 <body>
-
-<div class="container">
     <h1>Awesome Windows Privacy</h1>
     <p>A curated list of essential tools, documentation, and scripts to enhance privacy on Microsoft Windows.</p>
 
@@ -55,7 +75,7 @@
 
     <h3>Powershell and Batch Scripts</h3>
     <ul>
-        <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers.<br><strong>Important</strong>: Reboot your system before running Tron to avoid potential issues.</li>
+        <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers.<br><strong>Important:</strong> Reboot your system before running Tron to avoid potential issues.</li>
         <li><a href="https://www.getblackbird.net/">Blackbird</a> - A lightweight tool aimed at removing Windows spyware and blocking tracking services without needing a graphical interface.</li>
         <li><a href="https://github.com/farag2/Sophia-Script-for-Windows">Sophia Script for Windows</a> - A powerful PowerShell module for fine-tuning and tweaking Windows 10 & 11.</li>
         <li><a href="https://github.com/DrEmpiricism/Optimize-Offline">Optimize Offline</a> - A framework for offline optimization of Windows 10 images.</li>
@@ -100,16 +120,34 @@
     <h3>Misc</h3>
     <ul>
         <li><a href="https://github.com/schrebra/windows10.dns.list">windows10.dns.list</a> - DNS list for blocking various elements in Windows 10.</li>
-        <li><a href="https://privacybadger.org/">Privacy Badger</a> - A browser extension that automatically learns to block invisible trackers.</li>
-        <li><a href="https://www.torproject.org/">Tor Browser</a> - A browser designed to protect your anonymity online by routing your traffic through the Tor network.</li>
-        <li><a href="https://www.sandboxie.com/">Sandboxie Plus</a> - Runs programs in a sandbox to prevent unwanted changes to your system.</li>
-        <li><a href="https://pi-hole.net/">Pi-hole</a> - A network-wide ad blocker that protects your privacy by filtering ads and trackers at the DNS level.</li>
+        <li><a href="https://github.com/FiveBits/batch-audio-converter">Batch Audio Converter</a> - A simple utility for converting audio files in batch.</li>
+        <li><a href="https://github.com/NTDEV21/tiny10">Tiny10</a> - A minimal version of Windows 10.</li>
     </ul>
 
-    <footer>
-        <p>Feel free to contribute by making suggestions, adding tools, or improving the list. You can reach out to me on <a href="https://twitter.com/your-twitter-handle">Twitter</a>.</p>
-    </footer>
-</div>
+    <h3>Non-OSS Applications</h3>
+    <ul>
+        <li><a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10++</a> - A free tool for managing privacy settings in Windows 10 and 11.</li>
+        <li><a href="https://www.w10privacy.de/english-home/">W10Privacy</a> - A Windows tool for modifying privacy-related settings.</li>
+        <li><a href="https://www.abelssoft.de/en/windows/privacy-control">Abelssoft Windows Privacy Control</a> - Protects against Windows 10 & 11 telemetry and unwanted updates.</li>
+        <li><a href="https://www.abelssoft.de/en/windows/sync-manager">Abelssoft Sync Manager</a> - A program that lets you synchronize data between different devices and services.</li>
+        <li><a href="https://www.iobit.com/en/advanceduninstaller.php">IObit Uninstaller</a> - Uninstalls programs and browser plug-ins, and cleans up remnants of programs.</li>
+    </ul>
 
+    <h2>Contributing 🙌</h2>
+    <p>Contributions are always welcome! Feel free to submit a pull request with updates, suggestions, or fixes.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="./LICENSE">Apache License 2.0</a>.</p>
+
+    <footer>
+        <p>Feel free to contribute by making suggestions, adding tools, or improving the list. You can reach out to me on <a href="https://x.com/ArkoTest">X</a>.</p>
+    </footer>
+
+    <div class="tooltip">
+        Help
+        <span class="tooltip-text">Use Ctrl+Plus and Ctrl+Minus to Zoom</span>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>

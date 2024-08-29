@@ -1,24 +1,26 @@
-document.addEventListener('DOMContentLoaded', function () {
-    const increaseFontButton = document.getElementById('increase-font');
-    const decreaseFontButton = document.getElementById('decrease-font');
-    const toggleContrastButton = document.getElementById('toggle-contrast');
-    const body = document.body;
+// Enable Page Zoom
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && (event.key === '+' || event.key === '=')) {
+        document.body.style.zoom = (parseFloat(document.body.style.zoom || 1) + 0.1).toString();
+    }
+    if (event.ctrlKey && event.key === '-') {
+        document.body.style.zoom = (parseFloat(document.body.style.zoom || 1) - 0.1).toString();
+    }
+    if (event.ctrlKey && event.key === '0') {
+        document.body.style.zoom = '1';
+    }
+});
 
-    let fontSize = 16; // Default font size
+// Toggle High Contrast Mode
+function toggleHighContrast() {
+    const currentBgColor = window.getComputedStyle(document.body, null).getPropertyValue('background-color');
+    document.body.style.backgroundColor = currentBgColor === 'rgb(0, 0, 0)' ? '#f4f4f4' : '#000';
+    document.body.style.color = currentBgColor === 'rgb(0, 0, 0)' ? '#333' : '#fff';
+}
 
-    increaseFontButton.addEventListener('click', function () {
-        fontSize += 2;
-        document.body.style.fontSize = fontSize + 'px';
-    });
-
-    decreaseFontButton.addEventListener('click', function () {
-        if (fontSize > 10) {
-            fontSize -= 2;
-            document.body.style.fontSize = fontSize + 'px';
-        }
-    });
-
-    toggleContrastButton.addEventListener('click', function () {
-        body.classList.toggle('high-contrast-mode');
-    });
+// Keyboard shortcut for High Contrast Mode (Alt + H)
+document.addEventListener('keydown', function(event) {
+    if (event.altKey && event.key.toLowerCase() === 'h') {
+        toggleHighContrast();
+    }
 });

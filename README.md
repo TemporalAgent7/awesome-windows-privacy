@@ -1,65 +1,96 @@
-# Awesome Windows privacy
-A list of awesome tools, documentation and scripts for better privacy on Microsoft Windows
+# Awesome Windows Privacy
 
-- [Powershell and batch scripts](#powershell-and-batch-scripts)
-- [OSS Applications](#oss-applications)
-- [Documentation](#documentation)
-- [Misc](#misc)
-- [Non-OSS Applications](#non-oss-applications)
+A curated list of essential tools, documentation, and scripts to enhance privacy on Microsoft Windows.
 
-## Powershell and batch scripts
-*Collection of PowerShell or batch scripts that automate disabling services, registry keys and scheduled tasks*
+## Disclaimer
 
-* [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - The most powerful PowerShell module on GitHub for Windows 10 & Windows 11 fine-tuning and tweaking.
-* [Optimize Offline](https://github.com/DrEmpiricism/Optimize-Offline) - Optimize-Offline is a Windows 10 offline image optimization framework. 
-* [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover) - Configurable CLI tool to easily and aggressively debloat and tweak Windows 10 by removing preinstalled UWP apps, services and more.
-* [Windows On Reins](https://github.com/gordonbay/Windows-On-Reins) - Wor is a Powershell script to harden, debloat, optimize, enhance privacy, avoid fingerprinting and improve performance on Windows 10 and 11.
-* [PowerShell scripts for Windows 10](https://github.com/MichiMunich/Windows10-Privacy) - PowerShell script for Windows 10 privacy settings.
-* [Windows10Tools](https://github.com/L33Tech/Windows10Tools) - Tools for Windows 10.
-* [win10-unfuck](https://github.com/dfkt/win10-unfuck) - Remove anti-privacy, anti-security, and general nuisance "features" from Windows 10.
-* [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat) - For those who seek to minimize their Windows 10 installs.
-* [Win10 Initial Setup Script](https://github.com/owre/Win10-Initial-Setup-Script) - PowerShell script for automation of routine tasks done after fresh installations of Windows 10 / Server 2016 / Server 2019.
-* [windows-settings](https://github.com/milgradesec/windows-settings) - Windows 10 hardening scripts and configs.
-* [Windows 10 Privacy and Control Enhance](https://github.com/RedAndBlueEraser/windows-10-enhance-2) - A PowerShell script to automatically configure for the highest privacy and control settings in Windows 10.
-* [Windows 10 Privacy Fixup](https://github.com/iDigitalFlame/Windows10Fixup) - Fixes and nuters the Windows 10 bloat and privacy violations so it can be finally usable.
-* [windows10-debloat](https://github.com/Daksh777/windows10-debloat) - Collection of various scripts and apps to debloat Windows 10 for better privacy, performance and optimization.
-* [BetterPrivacy](https://github.com/hulr/BetterPrivacy) - PowerShell script to improve your privacy on Windows 10 computers.
-* [Windows 10 batch optimizer](https://github.com/SeregaSPb/Windows-10-batch-optimizer) - Autotuner Windows 10 for awesome perfomance setting, privacy and security.
-* [Windows-10-Hardening](https://github.com/aghorler/Windows-10-Hardening) - An admittedly frivolous (and infrequently updated) attempt to harden Windows 10.
-* [Private Secure Windows](https://github.com/troennes/private-secure-windows) - Privacy and security baseline for personal Windows 10 and Windows 11.
-* [tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts to build a trimmed-down Windows 11 image.
+This repository is a modified version of the main [awesome-windows-privacy repo](https://github.com/TemporalAgent7/awesome-windows-privacy) created by TemporalAgent7. I have reviewed and updated each link to ensure its accuracy and relevance. Additionally, I have included additional tools to further improve privacy. I hope you'll find this resource useful.
 
-## OSS Applications
-*UI tools that automate debloating Windows*
+## Sections
 
-* [Privatezilla](https://github.com/builtbybel/privatezilla) - Performs a privacy & security check of Windows 10.
-* [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) - Block spying and tracking on Windows.
-* [Debotnet](https://github.com/builtbybel/debotnet) - Debotnet is a tiny portable tool for controlling Windows 10's many privacy-related settings and keep your personal data private.
-* [privacy.sexy](https://github.com/undergroundwires/privacy.sexy) - Open-source tool to enforce privacy & security best-practices on Windows and macOS, because privacy is sexy.
-* [WinSlap](https://github.com/svenmauch/WinSlap) - Swiftly configure a fresh Windows 10 installation with useful tweaks and antispy settings.
-* [Chemo](https://github.com/t-richards/chemo) - Remove pre-installed junk from Windows 10.
-* [Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy) - Streamlines permissions settings and advanced controls for Windows 10 (built for version 1809).
-* [Bloatynosy](https://github.com/builtbybel/BloatyNosy) - Universal Debloater and PC Manager
-* [winutil](https://github.com/ChrisTitusTech/winutil) - Chris Titus Tech's Windows Utility - Install Programs, Tweaks, Fixes, and Updates 
+### Powershell and Batch Scripts
 
-## Documentation
-*Documents, link and other informational materials*
+- [TronScript](https://bmrf.org/repos/tron/) - A collection of scripts designed to automate the cleanup and disinfection of Windows computers.  
+  **Important**: Reboot your system before running Tron to avoid potential issues.
+- [Blackbird](https://www.getblackbird.net/) - A lightweight tool aimed at removing Windows spyware and blocking tracking services without needing a graphical interface.
+- [Sophia Script for Windows](https://github.com/farag2/Sophia-Script-for-Windows) - A powerful PowerShell module for fine-tuning and tweaking Windows 10 & 11.
+- [Optimize Offline](https://github.com/DrEmpiricism/Optimize-Offline) - A framework for offline optimization of Windows 10 images.
+- [Windows 10 Bloat Remover and Tweaker](https://github.com/Fs00/Win10BloatRemover) - A configurable CLI tool for debloating and tweaking Windows 10 by removing preinstalled UWP apps, services, and more.
+- [Windows On Reins](https://github.com/gordonbay/Windows-On-Reins) - A PowerShell script designed to harden, debloat, optimize, enhance privacy, and improve performance on Windows 10 and 11.
+- [PowerShell scripts for Windows 10](https://github.com/MichiMunich/Windows10-Privacy) - A PowerShell script focused on privacy settings for Windows 10.
+- [Windows10Tools](https://github.com/L33Tech/Windows10Tools) - Tools designed for Windows 10.
+- [Windows-Optimize-Debloat](https://github.com/simeononsecurity/Windows-Optimize-Debloat) - Tools for minimizing Windows 10 installations.
+- [windows-settings](https://github.com/milgradesec/windows-settings) - Scripts and configurations for hardening Windows 10.
+- [Windows 10 Privacy and Control Enhance](https://github.com/RedAndBlueEraser/windows-10-enhance-2) - A PowerShell script for configuring the highest privacy and control settings in Windows 10.
+- [Windows 10 Privacy Fixup](https://github.com/iDigitalFlame/Windows10Fixup) - Tools for addressing Windows 10 bloat and privacy issues.
+- [windows10-debloat](https://github.com/Daksh777/windows10-debloat) - A collection of scripts and applications to debloat Windows 10, improving privacy, performance, and optimization.
+- [BetterPrivacy](https://github.com/hulr/BetterPrivacy) - A PowerShell script designed to enhance privacy on Windows 10.
+- [Windows 10 batch optimizer](https://github.com/SeregaSPb/Windows-10-batch-optimizer) - A tool for optimizing Windows 10 for performance, privacy, and security.
+- [Private Secure Windows](https://github.com/troennes/private-secure-windows) - A baseline for ensuring privacy and security on Windows 10 and 11.
+- [DoNotSpy11](https://pxc-coding.com/donotspy11/) - An application that simplifies the configuration of privacy settings in Windows 10 and 11.
+- [tiny11builder](https://github.com/ntdevlabs/tiny11builder) - Scripts for creating a streamlined Windows 11 image.
 
-* [Windows 10 Privacy Guide](https://github.com/adolfintel/Windows10-Privacy) - A collection of snippets and description of various privacy settings.
-* [Windows 10_Anti Telemetry](https://github.com/beerisgood/Windows10_Anti-Telemetry) - My anti-telemetry guide for Windows 10 x64.
+### OSS Applications
 
-## Misc
-*Miscellaneous repositories related to this topic*
+- [Privatezilla](https://github.com/builtbybel/privatezilla) - Performs a privacy and security check on Windows 10.
+- [WindowsSpyBlocker](https://github.com/crazy-max/WindowsSpyBlocker) - Blocks spying and tracking on Windows.
+- [privacy.sexy](https://github.com/undergroundwires/privacy.sexy) - An open-source tool to enforce privacy and security best practices on Windows and macOS.
+- [WinSlap](https://github.com/svenmauch/WinSlap) - Quickly configures a fresh Windows 10 installation with useful tweaks and anti-spy settings.
+- [Chemo](https://github.com/t-richards/chemo) - Removes pre-installed junk from Windows 10.
+- [Windows10Privacy](https://github.com/ConditionalException/Windows10Privacy) - Simplifies permissions settings and advanced controls for Windows 10 (compatible with version 1809).
+- [winutil](https://github.com/ChrisTitusTech/winutil) - A utility by Chris Titus Tech for installing programs, applying tweaks, and performing fixes and updates.
 
-* [windows10.dns.list](https://github.com/schrebra/windows10.dns.list) - Block everything Windows 10.
+### Documentation
 
-## Non-OSS Applications
-*Non open source (not free) applications for debloating Windows*
+- [Windows 10_Anti Telemetry](https://github.com/beerisgood/Windows10_Anti-Telemetry) - A guide for mitigating telemetry in Windows 10 x64.
+- [The Privacy Project](https://www.privacyproject.org/) - Offers guides and resources for maintaining privacy online.
+- [PrivacyTools.io](https://www.privacytools.io/) - Provides recommendations for privacy-focused tools and services.
+- [The Privacy Guide](https://theprivacyguide.org/) - A resource for learning about privacy and the tools to help protect it.
+- [Electronic Frontier Foundation (EFF)](https://www.eff.org/) - An organization defending civil liberties in the digital world.
+- [SecureDrop](https://securedrop.org/) - A whistleblower submission system that media organizations can use to securely accept documents from anonymous sources.
+- [No More Ransom](https://www.nomoreransom.org/) - A collaboration between law enforcement and IT security companies to combat ransomware.
 
-* [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) - Free antispy tool for Windows 10 and 11.
-* [O&O AppBuster](https://www.oo-software.com/en/ooappbuster) - Bust Apps you do not want (uninstall store applications and packages)
-* [WinReducer-EX](https://www.winreducer.net/) - Remove components from WIM/ISO.
-* [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html) - MSMG ToolKit creates a slimmed down or bloat-free Windows by customizing, adding, or removing features and components and enabling or disabling features to Microsoft Windows 7, 8, 10, and 11.
-* [NTLite](https://www.ntlite.com/) - Integrate updates, drivers and remove Windows components from Windows ISO or live installation.
-* [Winaero Tweaker](https://winaerotweaker.com/) - All-in-one app for tuning Windows {7, 8, 10, 11}
-* [WPD](https://wpd.app/) - It is the most convenient way to configure various privacy settings in Windows.
+### Misc
+
+- [windows10.dns.list](https://github.com/schrebra/windows10.dns.list) - DNS list for blocking various elements in Windows 10.
+- [Privacy Badger](https://privacybadger.org/) - A browser extension that automatically learns to block invisible trackers.
+- [Tor Browser](https://www.torproject.org/) - A browser designed to protect your anonymity online by routing your traffic through the Tor network.
+- [Sandboxie](https://sandboxie-plus.com/) - A tool that isolates programs to prevent them from making permanent changes to your system.
+- [Justdelete.me](https://justdelete.me/) - A directory of direct links to delete your accounts from various online services.
+- [Have I Been Pwned](https://haveibeenpwned.com/) - A website that lets you check if your email address has been involved in a data breach.
+- [Cleanshot](https://www.cleanshot.com/) - Provides screenshots and privacy tools with features to blur sensitive information.
+- [IObit Uninstaller](https://www.iobit.com/en/iobit-uninstaller.php) - A tool for removing unwanted software and cleaning up residual files.
+- [Winaero Tweaker](https://winaero.com/winaero-tweaker/) - An application for customizing various Windows settings and features.
+- [Systweak Anti-Malware](https://www.systweak.com/antimalware/) - A tool for real-time protection against malware and spyware.
+- [Spybot Search & Destroy](https://www.safer-networking.org/) - A tool for detecting and removing spyware and adware.
+- [Kaspersky Security Scan](https://www.kaspersky.com/security-scan) - A tool for detecting security issues and malware on your system.
+- [Rizone's Portable CleanUp](https://www.rizone3.com/) - A portable tool for cleaning up temporary files and system junk.
+- [F-Secure Online Scanner](https://www.f-secure.com/en/home/free-tools/online-scanner) - A free online service to check your system for viruses and malware.
+- [Bitdefender Free Edition](https://www.bitdefender.com/solutions/free.html) - A free version of Bitdefender’s antivirus software for protecting against malware and viruses.
+- [Malwarebytes AdwCleaner](https://www.malwarebytes.com/adwcleaner/) - A tool for removing adware, unwanted toolbars, and browser hijackers.
+- [BleachBit](https://www.bleachbit.org/) - A privacy-focused disk cleanup tool that deletes unnecessary files and clears system and application caches.
+- [Veracrypt](https://www.veracrypt.fr/en/Home.html) - An open-source disk encryption tool for securing data.
+- [Cryptomator](https://cryptomator.org/) - An open-source encryption tool for securing files in the cloud.
+- [Signal](https://signal.org/) - A secure messaging app that offers end-to-end encryption.
+- [ProtonMail](https://protonmail.com/) - A secure email service that offers end-to-end encryption.
+- [VeraCrypt](https://www.veracrypt.fr/en/Home.html) - An open-source disk encryption tool to secure your files.
+
+### Non-OSS Applications
+
+- [O&O ShutUp10++](https://www.oo-software.com/en/shutup10) - A free tool for managing privacy settings in Windows 10 and 11.
+- [O&O AppBuster](https://www.oo-software.com/en/ooappbuster) - Tool for uninstalling unwanted store applications and packages.
+- [WinReducer-EX](https://www.winreducer.net/) - A tool for removing components from WIM/ISO images.
+- [MSMG ToolKit](https://m.majorgeeks.com/files/details/msmg_toolkit.html) - Customizes Windows by adding or removing features and components.
+- [NTLite](https://www.ntlite.com/) - Integrates updates, drivers, and removes components from Windows ISO or live installations.
+- [Winaero Tweaker](https://winaerotweaker.com/) - An all-in-one application for tuning various Windows versions.
+- [WPD](https://wpd.app/) - A tool for configuring various privacy settings in Windows.
+- [Syshardener](https://www.syshardener.com/) - A tool designed to improve Windows security by hardening system settings.
+- [W10Privacy](https://www.w10privacy.de/english-home/) - A privacy tool designed to provide more control over Windows 10 privacy settings.
+
+## Contributing 🙌
+
+Contributions are always welcome! Feel free to submit a pull request with updates, suggestions, or fixes.
+
+## License
+
+This project is licensed under the [Apache License 2.0](./LICENSE).

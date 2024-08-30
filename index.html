@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Windows Privacy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .tooltip {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #f1f1f1;
+            border: 1px solid #ccc;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 12px;
+            color: #333;
+            cursor: pointer;
+        }
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+            opacity: 1;
+        }
+        .tooltip-text {
+            visibility: hidden;
+            width: 140px;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; 
+            left: 50%; 
+            margin-left: -70px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip-text::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -5px;
+            border-width: 5px;
+            border-style: solid;
+            border-color: #333 transparent transparent transparent;
+        }
+    </style>
+</head>
+<body>
+    <h1>Awesome Windows Privacy</h1>
+    <p>A curated list of essential tools, documentation, and scripts to enhance privacy on Microsoft Windows.</p>
+
+    <h2>Disclaimer</h2>
+    <p>This repository is a modified version of the main <a href="https://github.com/TemporalAgent7/awesome-windows-privacy">awesome-windows-privacy repo</a> created by TemporalAgent7. I have reviewed and updated each link to ensure its accuracy and relevance. Additionally, I have included additional tools to further improve privacy. I hope you'll find this resource useful.</p>
+
+    <h2>Sections</h2>
+
+    <h3>Powershell and Batch Scripts</h3>
+    <ul>
+        <li><a href="https://bmrf.org/repos/tron/">TronScript</a> - A collection of scripts designed to automate the cleanup and disinfection of Windows computers.<br><strong>Important:</strong> Reboot your system before running Tron to avoid potential issues.</li>
+        <li><a href="https://www.getblackbird.net/">Blackbird</a> - A lightweight tool aimed at removing Windows spyware and blocking tracking services without needing a graphical interface.</li>
+        <li><a href="https://github.com/farag2/Sophia-Script-for-Windows">Sophia Script for Windows</a> - A powerful PowerShell module for fine-tuning and tweaking Windows 10 & 11.</li>
+        <li><a href="https://github.com/DrEmpiricism/Optimize-Offline">Optimize Offline</a> - A framework for offline optimization of Windows 10 images.</li>
+        <li><a href="https://github.com/Fs00/Win10BloatRemover">Windows 10 Bloat Remover and Tweaker</a> - A configurable CLI tool for debloating and tweaking Windows 10 by removing preinstalled UWP apps, services, and more.</li>
+        <li><a href="https://github.com/gordonbay/Windows-On-Reins">Windows On Reins</a> - A PowerShell script designed to harden, debloat, optimize, enhance privacy, and improve performance on Windows 10 and 11.</li>
+        <li><a href="https://github.com/MichiMunich/Windows10-Privacy">PowerShell scripts for Windows 10</a> - A PowerShell script focused on privacy settings for Windows 10.</li>
+        <li><a href="https://github.com/L33Tech/Windows10Tools">Windows10Tools</a> - Tools designed for Windows 10.</li>
+        <li><a href="https://github.com/simeononsecurity/Windows-Optimize-Debloat">Windows-Optimize-Debloat</a> - Tools for minimizing Windows 10 installations.</li>
+        <li><a href="https://github.com/milgradesec/windows-settings">windows-settings</a> - Scripts and configurations for hardening Windows 10.</li>
+        <li><a href="https://github.com/RedAndBlueEraser/windows-10-enhance-2">Windows 10 Privacy and Control Enhance</a> - A PowerShell script for configuring the highest privacy and control settings in Windows 10.</li>
+        <li><a href="https://github.com/iDigitalFlame/Windows10Fixup">Windows 10 Privacy Fixup</a> - Tools for addressing Windows 10 bloat and privacy issues.</li>
+        <li><a href="https://github.com/Daksh777/windows10-debloat">windows10-debloat</a> - A collection of scripts and applications to debloat Windows 10, improving privacy, performance, and optimization.</li>
+        <li><a href="https://github.com/hulr/BetterPrivacy">BetterPrivacy</a> - A PowerShell script designed to enhance privacy on Windows 10.</li>
+        <li><a href="https://github.com/SeregaSPb/Windows-10-batch-optimizer">Windows 10 batch optimizer</a> - A tool for optimizing Windows 10 for performance, privacy, and security.</li>
+        <li><a href="https://github.com/troennes/private-secure-windows">Private Secure Windows</a> - A baseline for ensuring privacy and security on Windows 10 and 11.</li>
+        <li><a href="https://pxc-coding.com/donotspy11/">DoNotSpy11</a> - An application that simplifies the configuration of privacy settings in Windows 10 and 11.</li>
+        <li><a href="https://github.com/ntdevlabs/tiny11builder">tiny11builder</a> - Scripts for creating a streamlined Windows 11 image.</li>
+    </ul>
+
+    <h3>OSS Applications</h3>
+    <ul>
+        <li><a href="https://github.com/builtbybel/privatezilla">Privatezilla</a> - Performs a privacy and security check on Windows 10.</li>
+        <li><a href="https://github.com/crazy-max/WindowsSpyBlocker">WindowsSpyBlocker</a> - Blocks spying and tracking on Windows.</li>
+        <li><a href="https://github.com/undergroundwires/privacy.sexy">privacy.sexy</a> - An open-source tool to enforce privacy and security best practices on Windows and macOS.</li>
+        <li><a href="https://github.com/svenmauch/WinSlap">WinSlap</a> - Quickly configures a fresh Windows 10 installation with useful tweaks and anti-spy settings.</li>
+        <li><a href="https://github.com/t-richards/chemo">Chemo</a> - Removes pre-installed junk from Windows 10.</li>
+        <li><a href="https://github.com/ConditionalException/Windows10Privacy">Windows10Privacy</a> - Simplifies permissions settings and advanced controls for Windows 10 (compatible with version 1809).</li>
+        <li><a href="https://github.com/ChrisTitusTech/winutil">winutil</a> - A utility by Chris Titus Tech for installing programs, applying tweaks, and performing fixes and updates.</li>
+    </ul>
+
+    <h3>Documentation</h3>
+    <ul>
+        <li><a href="https://github.com/beerisgood/Windows10_Anti-Telemetry">Windows 10_Anti Telemetry</a> - A guide for mitigating telemetry in Windows 10 x64.</li>
+        <li><a href="https://www.privacyproject.org/">The Privacy Project</a> - Offers guides and resources for maintaining privacy online.</li>
+        <li><a href="https://www.privacytools.io/">PrivacyTools.io</a> - Provides recommendations for privacy-focused tools and services.</li>
+        <li><a href="https://theprivacyguide.org/">The Privacy Guide</a> - A resource for learning about privacy and the tools to help protect it.</li>
+        <li><a href="https://www.eff.org/">Electronic Frontier Foundation (EFF)</a> - An organization defending civil liberties in the digital world.</li>
+        <li><a href="https://securedrop.org/">SecureDrop</a> - A whistleblower submission system that media organizations can use to securely accept documents from anonymous sources.</li>
+        <li><a href="https://www.nomoreransom.org/">No More Ransom</a> - A collaboration between law enforcement and IT security companies to combat ransomware.</li>
+    </ul>
+
+    <h3>Misc</h3>
+    <ul>
+        <li><a href="https://github.com/schrebra/windows10.dns.list">windows10.dns.list</a> - DNS list for blocking various elements in Windows 10.</li>
+        <li><a href="https://github.com/FiveBits/batch-audio-converter">Batch Audio Converter</a> - A simple utility for converting audio files in batch.</li>
+        <li><a href="https://github.com/NTDEV21/tiny10">Tiny10</a> - A minimal version of Windows 10.</li>
+    </ul>
+
+    <h3>Non-OSS Applications</h3>
+    <ul>
+        <li><a href="https://www.oo-software.com/en/shutup10">O&O ShutUp10++</a> - A free tool for managing privacy settings in Windows 10 and 11.</li>
+        <li><a href="https://www.w10privacy.de/english-home/">W10Privacy</a> - A Windows tool for modifying privacy-related settings.</li>
+        <li><a href="https://www.abelssoft.de/en/windows/privacy-control">Abelssoft Windows Privacy Control</a> - Protects against Windows 10 & 11 telemetry and unwanted updates.</li>
+        <li><a href="https://www.abelssoft.de/en/windows/sync-manager">Abelssoft Sync Manager</a> - A program that lets you synchronize data between different devices and services.</li>
+        <li><a href="https://www.iobit.com/en/advanceduninstaller.php">IObit Uninstaller</a> - Uninstalls programs and browser plug-ins, and cleans up remnants of programs.</li>
+    </ul>
+
+    <h2>Contributing 🙌</h2>
+    <p>Contributions are always welcome! Feel free to submit a pull request with updates, suggestions, or fixes.</p>
+
+    <h2>License</h2>
+    <p>This project is licensed under the <a href="./LICENSE">Apache License 2.0</a>.</p>
+
+    <div class="tooltip">
+        Help
+        <span class="tooltip-text">Use Ctrl+Plus and Ctrl+Minus to Zoom</span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

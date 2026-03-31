@@ -63,3 +63,4 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [NTLite](https://www.ntlite.com/) - Integrate updates, drivers and remove Windows components from Windows ISO or live installation.
 * [Winaero Tweaker](https://winaerotweaker.com/) - All-in-one app for tuning Windows {7, 8, 10, 11}
 * [WPD](https://wpd.app/) - It is the most convenient way to configure various privacy settings in Windows.
+* [Beetroot](https://github.com/mnardit/beetroot-releases) - Privacy-first clipboard manager for Windows. All data stored locally in SQLite, no telemetry, no cloud, no account required. Free.

@@ -63,3 +63,6 @@ A list of awesome tools, documentation and scripts for better privacy on Microso
 * [NTLite](https://www.ntlite.com/) - Integrate updates, drivers and remove Windows components from Windows ISO or live installation.
 * [Winaero Tweaker](https://winaerotweaker.com/) - All-in-one app for tuning Windows {7, 8, 10, 11}
 * [WPD](https://wpd.app/) - It is the most convenient way to configure various privacy settings in Windows.
+
+
+* [Remove audio from video](https://remove-audio.com) - Free, browser-based audio remover. Local processing via WebAssembly. No signup, no watermarks. Batch up to 20 clips.

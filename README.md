@@ -1,3 +1,5 @@
+# Note: I am no longer maintaining this list, I gave up fighting and switched all my remaining machines over to Linux. Feel free to fork or build your own if you're still using Windows.
+
 # Awesome Windows privacy
 A list of awesome tools, documentation and scripts for better privacy on Microsoft Windows
 
